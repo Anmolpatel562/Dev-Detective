@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="shortcut icon" href="git.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/daecb5c9fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+         <!-- inner container -->
+         <div class="container" main-Container>
+            <h1>Dev Detective</h1>
+
+            <!-- tab-container -->
+            <div class="tab" tab-Container>
+                <i class="fa-solid fa-magnifying-glass fa-sm search"></i>
+                  <input type="text" class="textfield" placeholder="Enter a github username..." inputField>
+                  <img src="" alt="" crossImg>
+                  <Button class="btn" seachButton>Seach</Button>
+            </div>
+            <!-- content-container  -->
+            <div class="userContainer" content-Container>
+
+                <!-- First portion -->
+                <div class="sideBar">
+                    <img src="" class="userImg" user-Img>
+                </div>
+               
+                <!-- second portion -->
+             <div class="details">
+                <!-- UserName and date -->
+                <div class="nameInfo"> 
+                    <h2 user-Name></h2>
+                    <p date></p>
+                </div>
+                
+                <div class="link" >
+                    <a href="" target="_blank" idLink></a>
+                </div>
+                
+                
+                <p class="bio" about></p>
+
+                <!-- Followers container -->
+                <div class="dataContainer" followers-Container>
+                      <div class="repo">
+                          <p>Repos</p>
+                          <p reposNo></p>
+                      </div>
+                      <div class="follow">
+                           <p>Followers</p>
+                           <p followersNo></p>
+                      </div>
+                      <div class="following">
+                           <p>Following</p>
+                           <p followingNo></p>
+                      </div>
+                </div>
+
+                <!-- footer  -->
+                   <div class="footer">
+                        <div class="location">
+                             <i class="fa-solid fa-location-dot"></i>
+                             <p cityName></p>
+                        </div>
+                        <div class="twitter">
+                            <i class="fa-brands fa-twitter"></i>
+                             <p twitterId></p>
+                        </div>
+                   </div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
